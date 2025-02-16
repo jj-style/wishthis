@@ -69,7 +69,7 @@ $user = User::getCurrent();
             <div class="ui segment">
                 <h2 class="ui header"><?= __('What to do?') ?></h2>
                 <p><?= sprintf(
-                    __('If you found a wish you would like to fulfil, open the wish %s and then click the %s button and it will be unavailable for everybody else.'),
+                    __('If you found a wish you would like to fulfil:<br/><ol><li>open the wish %s</li><li>Visit the link / purchase from wherever you find</li><li>click the %s button and it will be unavailable for everybody else.</li></ol>'),
                     '<span class="ui tiny horizontal label"><i class="stream icon"></i> ' . __('Details') . '</span>',
                     '<span class="ui primary tiny horizontal label"><i class="gift icon"></i> ' . __('Fulfil wish') . '</span>'
                 ) ?></p>
