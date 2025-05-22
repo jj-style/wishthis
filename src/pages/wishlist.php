@@ -72,6 +72,7 @@ $user = User::getCurrent();
                 <ol>
                     <li>Open the wish <span class="ui tiny horizontal label"><i class="stream icon"></i>Details</span>.</li>
                     <li>Visit the link and purchase, or from wherever you find.</li>
+                    <li>Return back to this site.</li>
                     <li>Click the <span class="ui primary tiny horizontal label"><i class="gift icon"></i>Fulfil wish</span> button and it will become unavailable for everybody else.</li>
                 </ol>
             </div>
